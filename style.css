@@ -1,0 +1,233 @@
+/* GLobals */
+html,
+body {height: 100%;    color: #4b4b4b;}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 44px;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.72;
+}
+h3{font-size: 20px;}
+h4 {
+    font-size: 18px;
+}
+
+p {
+    color: #4b4b4b;
+}
+
+a {
+    transition: all 0.3s ease;
+    color: #4b4b4b;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2cb20e;
+}
+.content { margin: 60px 0;}
+.text-dull {
+    opacity: 0.8;
+}
+
+.fa {
+    color: #2cb20e;
+}
+
+.btn {
+    border-radius: 5px;
+    box-shadow: 0 2px 0 0 #157000;
+}
+
+.btn-primary {
+    background-color: #2cb20e;
+    border-color: #2cb20e;
+}
+
+.btn-primary:hover {
+    color: #2cb20e;
+    background-color: #fff;
+    border-color: #2cb20e;
+}
+
+.btn-secondary {
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+}
+
+.btn-secondary:hover {
+    color: #4b4b4b;
+    background-color: #fff;
+    border-color: #4b4b4b;
+}
+
+ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1060px;
+}
+
+
+/* Navigation */
+.navbar-brand {
+    margin: 0;
+}
+.navbar-nav {
+    margin: 0 auto;
+}
+.navbar-nav a{
+    font-weight: bold;
+    padding: 0 10px;
+}
+/* Header Masthead */
+
+.masthead {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("./asset/hero.jpg");
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("./asset/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    border-radius: 0 0 52% 20% / 5%;
+    overflow: hidden;
+}
+
+.masthead img {
+    position: absolute;
+    right: -140;
+    top: -140px;
+}
+
+.masthead p{
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Globals */
+
+
+/* Business Details */
+
+.business-details h2 {margin: 30px 0;}
+.business-details p {
+    opacity: 0.83;
+    font-size: 16px;
+    line-height: 2;
+}
+
+/* Promotional Banner */
+.promotional-banner {
+    background-color:#2cb20e;
+    max-width: 100%;
+    overflow: hidden;
+}
+.promotional-banner .container{margin: 0;}
+.promotional-banner-img {
+    opacity: 0.61;;
+}
+.promotional-banner h1{font-size: 38px;}
+.promotional-banner p{color: #fff;font-size: 20px;}
+
+.promotional-banner-content {
+    padding: 20% 0 0 5%;
+
+}
+
+
+/* Categories */
+.categories .categories-border {
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(155, 155, 155, 0.5);
+}
+
+.categories .categories-border:hover {
+    cursor: pointer;
+    position: relative;
+    transform: translateY(-5px);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
+
+.categories img {
+    width: 100%;
+    ;
+}
+
+.categories h2{text-align: center;}
+.categories p{
+    padding: 10px 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #4b4b4b;
+    border-radius: 100% 15% 0 0% / 5%;
+}
+
+footer label {
+    color: white;
+    font-size: 15px
+}
+
+footer a {
+    color: white;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+footer .footer-copyright {
+    background-color: #353535;
+}
+
+footer .footer-copyright p {
+    color: #fff;
+    opacity: 0.35;
+    font-size: 15px;
+    margin: 0;
+}
+
+footer .fa {
+    color: #fff;
+}
+
+footer .fa:hover {
+    color: #2cb20e;
+}
